@@ -1,0 +1,175 @@
+/*  
+PROJECT: CAPSTONE
+DATE: 15/10/2021
+AUTHORS (alphabetical order):
+Katarzyna Kalisz
+Luciene Gomes
+*/
+
+/* PAGE SALE */
+
+/*************************** TOP NAVEGATION **************************************/
+/* Style top navegation in general */
+.topnav {
+  overflow: hidden;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
+  background-color:white;
+  position: fixed;
+  top:0;
+  left: 0;
+  right:0;
+  width: 100%;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: right;
+color:rgb(19, 10, 151);
+text-align: right;
+padding: 30px 30px;
+text-decoration: none;
+font-size: 20px;
+margin-left: 45px;
+font-family: sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: rgb(19, 10, 151);
+color: white;
+border-radius: 18px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: rgb(19, 10, 151);
+color: white;
+}
+
+/******************************************** MAIN ************************************/
+html {
+  box-sizing: border-box;
+}
+
+/* Apply blocks of columns before footer */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Style the columns */ 
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* On smaller screens, decrease column size */ 
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+
+  }
+}
+
+/* Style the container and card classes */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 18px;
+}
+
+.prev , .next{
+width:30px;
+height:30px;
+transition: 0.6s ease;
+border-radius: 10px;
+background-color:rgb(54, 126, 235);
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color:rgb(19, 10, 151);
+}
+
+/* Style the buttons */
+.button {
+  border-radius: 20px;
+  display: inline-block;
+  padding: 12px;
+  color: white;
+  background-color:rgb(226, 94, 42);
+  text-decoration: none;
+  text-align: center;
+  font-family: sans-serif;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+/* Change the color of buttons on hover */
+.button:hover {
+  background-color:rgb(57, 209, 57);
+}
+
+.button {border-radius: 20px;
+}
+
+/* Adding image style */
+img {
+  border-radius: 8px;
+}
+
+/* Style the more and slides */
+#more, #more1, #more2, #more3, #more4, #more5{display: none;}  /******styling for read me button*********/
+* {box-sizing: border-box}
+.mySlides, .mySlides1 , .mySlides2 , .mySlides3, .mySlides4, .mySlides5{display: block;}
+img {vertical-align: middle;}
+
+/* Style the buttons */
+.read-button
+{
+  border-radius: 16px;
+  display: inline-block;
+  padding: 15px;
+  color:white;
+  background-color:navy;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Change the color of buttons on hover */
+.read-button:hover {
+  background-color:#30a034;
+}
+
+/************************************* FOOTER **************************************/
+/* Style the footer */
+.footer{
+  position: bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+/************************************* END ******************************************/  
+/************************************************************************************/  
+/************************************************************************************/ 
+  
+

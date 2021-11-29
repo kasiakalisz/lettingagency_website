@@ -1,0 +1,140 @@
+/*  
+PROJECT: CAPSTONE
+DATE: 15/10/2021
+AUTHORS (alphabetical order):
+Katarzyna Kalisz
+Luciene Gomes
+*/
+
+/* PAGE TEAM */
+
+/******************************* TOP NAVEGATION BAR *********************************/
+/* Style top navegation in general */
+.topnav {
+  overflow: hidden;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
+  background-color:white;
+  position: fixed;
+  top:0;
+  left: 0;
+  right:0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color:rgb(19, 10, 151);
+  text-align: right;
+  padding: 30px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 45px;
+  font-family: sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: rgb(19, 10, 151);
+color: white;
+border-radius: 12px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: rgb(19, 10, 151);
+color: white;
+}
+
+/************************************* Main **************************************/
+
+  html {
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  
+  /* Apply blocks of columns before footer */
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Style the columns */
+  .column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  /* On smaller screens, decrease column size */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+
+    }
+  }
+  
+  /* Style the container and card classes */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    padding: 0 18px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color:rgb(19, 10, 151);
+  }
+
+  /* Style the buttons */
+  .button {
+    border-radius: 20px;
+    display: inline-block;
+    padding: 12px;
+    color: white;
+    background-color:navy;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+
+  }
+  
+  /* Change the color of buttons on hover */
+  .button:hover {
+    background-color:rgb(57, 209, 57);
+  }
+
+  .button {border-radius: 20px;}
+
+  /* Adding image position */
+  img {
+    border-radius: 8px;
+  }
+
+/************************************* FOOTER **************************************/
+/* Style the footer */
+.footer{
+  position: bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  font-size: 10px;
+}
+  
+/************************************* END ******************************************/  
+/************************************************************************************/  
+/************************************************************************************/  
+    
+ 

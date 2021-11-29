@@ -1,0 +1,149 @@
+<!--  
+PROJECT: CAPSTONE
+DATE: 15/10/2021
+AUTHORS (alphabetical order):
+Katarzyna Kalisz
+Luciene Gomes
+-->
+
+<!-- PAGE CONTACT -->
+
+<!--------------------- Defining this document as an HTML5 document: --------------------------->
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <!-- Giving a title -->
+        <link rel="stylesheet" href="../css/contact.css">
+        <!-- Connecting to external style sheet -->
+        <title> Contact </title>
+        
+    </head>
+    
+    <body>
+
+<!--------------------------------- TOP NAVEGATION BAR ------------------------------------->
+        <div class="topnav">
+                
+            <!-- Logo -->
+            <img id="logo" src="../photos/logo_kasia_v2.jpg" alt="Capstone Group" width="100" height="80">
+        
+            <!----- Icons ---->
+            <a href="contact.html">Contact</a>
+            <a href="team.html">Team</a>
+            <a href="about.html">About</a>
+            <a href="rent.html">Rent</a>
+            <a href="sale.html">Sale</a>
+            <a href="homeblue.html">Home</a>
+           
+        </div>
+    <!------------------------------------- MAIN ------------------------------------------>    
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        
+        <div class="main">
+            
+            <!-- Heading of the page -->        
+            <h1> Contact Us </h1> 
+
+            <br>
+            
+            <!-- Adding a form -->
+            <form action="action_page.php">
+                
+                <!-- Creating rowns and columns of the form -->
+                <div class="row">
+                    <div class="col-15">
+                        <!-- Labeling rown -->
+                        <label for="name">Name: *</label> 
+                    </div>
+                    <div class="col-85">
+                        <input type="text" id="name" name="name" placeholder="Your name..">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-15">
+                        <label for="email">Email: *</label> 
+                    </div>
+                    <div class="col-85">
+                        <input type="text" id="email" name="email" placeholder="Email..">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-15">
+                        <label for="telephone">Telephone: *</label> 
+                    </div>
+                    <div class="col-85">
+                        <input type="text" id="telephone" name="telephone" placeholder="Telephone number..">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-15">
+                        <label for="message">Message: *</label> 
+                    </div>
+                    <div class="col-85">
+                        <input type="text" id="message" name="message" placeholder="Message..">
+                    </div>
+                </div>
+                <br>
+                <div class="row"> 
+                    <!-- Value attribute defines the next on the button -->
+                    <input type="submit" value="Submit">
+                </div>
+ 
+            </form>
+
+            <br>
+        
+            <!-- Open Street Map --> 
+            <div class="openstreet">
+            
+                <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=-2.2806286811828618%2C53.490554199164436%2C-2.270586490631104%2C53.49480518258867&amp;layer=mapnik&amp;marker=53.49267974414147%2C-2.2756075859069824">
+                </iframe>
+                <br>
+                <small><a href="https://www.openstreetmap.org/?mlat=53.49268&amp;mlon=-2.27561#map=17/53.49268/-2.27561"> Map </a></small>
+        
+            </div>
+
+             <!-- Address -->
+            <div class="address">
+                <h4> Opening Times </h4> 
+                <p> Mon - Fri 09:00 - 17:30</p> 
+                <p> Saturday 09:00 - 16:00</p>
+                <p> Sunday Closed</p>
+                <br>
+                <h4> Address: </h4> <p> Frederick Rd, Manchester, Salford M6 6QH </p>
+                <p> Phone: 0161 631 5004 </p>
+                <br>
+                <p> Disabled access available </p>
+            </div>
+            
+
+        <!-------------------------------------- FOOTER ---------------------------------------->
+        
+        <div class="footer">
+
+            <p>Find us at:</p>
+
+            <!-- Instagram icon -->
+            <a href="http://instagram.com" target="_blank"><img alt="" src="../photos/instagram-square-brands.svg" style="height:25px; width: 25px;"/></a>
+
+            <!-- Facebook icon -->
+            <a href="http://twitter.com" target="_blank"><img alt="" src="../photos/twitter-brands.svg" style="height:25px; width: 25px;"/></a>
+
+            <p> Capstone LTD 2021. All rights reserved.</p>
+
+        </div>
+        
+    </body>
+
+</html>
+

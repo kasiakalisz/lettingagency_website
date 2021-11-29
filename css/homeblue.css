@@ -1,0 +1,113 @@
+
+/*  
+PROJECT: CAPSTONE
+DATE: 15/10/2021
+AUTHORS (alphabetical order):
+Katarzyna Kalisz
+Luciene Gomes
+*/
+
+/* PAGE HOME */
+
+/******************************* TOP NAVEGATION BAR *********************************/
+/* Style the header */
+header{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:white;
+  
+}
+
+/* Style top navegation in general */
+.topnav {
+    overflow: hidden;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+    background-color:white;
+    position: fixed;
+    top:0;
+    left: 0;
+    right:0;
+    width: 100%;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color:rgb(19, 10, 151);
+    text-align: right;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 45px;
+    font-family: sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(19, 10, 151);
+  color: white;
+  border-radius: 18px;
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(19, 10, 151);
+  color: white;
+}
+
+/******************************************** MAIN ************************************/
+/* Style the buttons */
+.button {
+  border: 2px solid white;
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  background-color:rgb(19, 10, 151);
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  cursor: pointer;
+  width: 15%
+}
+
+/* Change the color of buttons on hover */
+.button:hover {
+  background-color: #30a034;
+  border: 5px white;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}     
+
+.button {border-radius: 16px;}
+
+ /* Adding and style background image */
+body {
+background-image: url('../photos/background.jpeg'); 
+background-repeat: no-repeat;
+background-attachment: inherit;
+background-size: cover;
+}
+            
+/************************************* FOOTER **************************************/
+
+/* Style the footer */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
+    
+/************************************* END ******************************************/  
+/************************************************************************************/  
+/************************************************************************************/  
